@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Entities;
+﻿namespace Core.Entities;
 public class Products
 {
     public int Id { get; set; }
