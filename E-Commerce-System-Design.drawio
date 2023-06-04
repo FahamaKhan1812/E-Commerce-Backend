@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-06-03T17:07:15.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YY0vwDrY4Xtzztz6_Lnv" version="21.3.7" type="device">
+  <diagram name="Page-1" id="JciNiugIsTIIhpxWSh_2">
+    <mxGraphModel dx="858" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24VS8oc4HLMBjwUYZ82y-1" target="24VS8oc4HLMBjwUYZ82y-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-1" value="API&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24VS8oc4HLMBjwUYZ82y-2" target="24VS8oc4HLMBjwUYZ82y-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-2" value="Core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24VS8oc4HLMBjwUYZ82y-3" target="24VS8oc4HLMBjwUYZ82y-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-3" value="Infrastructure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.498;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24VS8oc4HLMBjwUYZ82y-3" target="24VS8oc4HLMBjwUYZ82y-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="339.96" y="382" as="sourcePoint" />
+            <mxPoint x="340" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=-0.007;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="24VS8oc4HLMBjwUYZ82y-1" target="24VS8oc4HLMBjwUYZ82y-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="220" as="sourcePoint" />
+            <mxPoint x="340" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-15" value="Receive HTTP requests and respond to them&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-18" value="Communicate with the DB and send queries and get data&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24VS8oc4HLMBjwUYZ82y-20" value="Contain the business entities. Do not depend on anything else" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
