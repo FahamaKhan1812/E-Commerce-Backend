@@ -23,7 +23,7 @@ namespace Web.Api.Controllers
             return Ok(products);
         }
 
-        [HttpGet("getproduct")]
+        [HttpGet("getproduct/{id}")]
         public async Task<ActionResult<Products>> GetProduct(int id)
         {
             return await _productRepository.GetProductByIdAsync(id);
