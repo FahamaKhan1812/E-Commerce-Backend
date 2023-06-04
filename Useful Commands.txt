@@ -1,6 +1,6 @@
 // Command will be used in Infrastructure layer
 
-dotnet ef migrations add "Custom message" --startup-project ../NoteBooks.Api
+dotnet ef migrations add "Initial Migration" --startup-project ../Web.Api
 
 // to update db
-dotnet ef database update --startup-project ../NoteBooks.Api
+dotnet ef database update  --startup-project ../Web.Api
