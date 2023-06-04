@@ -1,4 +1,6 @@
-using Core.Data;
+using Core.Interfaces;
+using Infrastructure.Data;
+using Infrastructure.Data.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
