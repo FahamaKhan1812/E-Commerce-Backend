@@ -8,9 +8,7 @@ using Web.Api.Dtos;
 
 namespace Web.Api.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductController : BaseAPiCotroller
     {
         private readonly IGenericRepository<Products> _productRepo;
         private readonly IGenericRepository<ProductType> _productTypeRepo;
